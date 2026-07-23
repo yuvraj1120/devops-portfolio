@@ -22,6 +22,28 @@ hostname
 
 ## Docker Installation
 
+## Install Docker
+
+```bash
+sudo apt update
+```
+
+```bash
+sudo apt install docker.io -y
+```
+
+```bash
+sudo systemctl enable docker
+```
+
+```bash
+sudo systemctl start docker
+```
+
+```bash
+docker --version
+```
+
 ## Jenkins Container
 
 ## SSH Configuration
