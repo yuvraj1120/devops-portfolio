@@ -50,6 +50,17 @@ The controller **does not perform heavy builds**.
 
 ---
 
+### Docker Container
+
+The Jenkins Controller is hosted inside a Docker container rather than directly on the operating system.
+
+Benefits
+
+- Easy upgrades
+- Isolation
+- Portability
+- Persistent storage through Docker volumes
+
 ### Linux SSH Agent (worker1)
 
 Responsible for:
@@ -60,6 +71,8 @@ Responsible for:
 - Returning build results
 
 ---
+
+
 
 ### Maven
 
